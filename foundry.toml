@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[rpc_endpoints]
+eth = "${ALCHEMY_ETH_RPC}"
+arb = "${ALCHEMY_ARB_RPC}"
+bsc = "${ALCHEMY_BSC_RPC}"
