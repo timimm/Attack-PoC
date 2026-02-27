@@ -34,3 +34,9 @@ forge test --match-path VIBToken.t.sol -vv
 forge test --match-path Makina.t.sol -vv
 ```
 
+### FoomCash - ZK Verifier Misconfiguration
+
+```sh
+forge test --match-path Foom.t.sol -vv
+```
+
