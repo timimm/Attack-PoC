@@ -40,3 +40,7 @@ forge test --match-path Makina.t.sol -vv
 forge test --match-path Foom.t.sol -vv
 ```
 
+### dTRINITY - Empty Pool Attack
+```sh
+forge test --match-path DTrinityExploit.t.sol -vv --via-ir
+```
